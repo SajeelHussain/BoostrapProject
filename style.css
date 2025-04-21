@@ -83,7 +83,36 @@ html, body{
 
 .fa-code, .fa-bootstrap, .fa-css3{
   font-size: 4em;
-  margin: 2rem;
+  margin: 1rem;
+}
+
+
+.fun.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border-radius: 2rem;
+  padding: 0.75rem 2.2rem;
+  background: linear-gradient(90deg, #6648b1 60%, #563d7c 100%);
+  border: none;
+  box-shadow: 0 2px 12px rgba(102, 72, 177, 0.15);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+}
+.fun.btn:hover, .fun.btn:focus {
+  background: linear-gradient(90deg, #563d7c 60%, #6648b1 100%);
+  box-shadow: 0 4px 24px rgba(102, 72, 177, 0.25);
+  transform: translateY(-2px) scale(1.04);
+  color: #fff;
+}
+.fun .fa-smile-beam {
+  font-size: 1.3em;
+  margin-right: 0.5em;
+}
+
+.gif{
+  max-width: 100%;
 }
 /*---Media Queries --*/
 @media (max-width: 992px) {
