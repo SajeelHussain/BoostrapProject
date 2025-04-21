@@ -114,6 +114,55 @@ html, body{
 .gif{
   max-width: 100%;
 }
+
+
+.social a {
+  font-size: 4.5rem;
+  padding: 3rem;
+}
+
+
+.fa-facebook{
+  color: #3b5998;
+}
+
+.fa-twitter{
+  color: #00aced;
+}
+
+.fa-google-plus-g{
+  color: #ddb439;
+}
+
+.fa-instagram{
+  color: #d62976;
+}
+
+.fa-youtube{
+  color:#bb0000
+}
+
+
+.fa-facebook:hover, 
+.fa-twitter:hover, 
+.fa-google-plus-g:hover,
+.fa-instagram:hover, 
+.fa-youtube:hover{
+  color: #d5d5d5;
+}
+
+
+hr.light
+{
+border-top: 1px solid #d5d5d5;
+width: 75%;
+margin-top: 0.8rem;
+margin-bottom: 1rem;
+
+}
+
+
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
 
